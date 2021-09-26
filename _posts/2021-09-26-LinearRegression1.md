@@ -11,23 +11,23 @@ sidebar:
 
   <div style="text-align: right"> 2021.09.12 </div>
 
-$\def\nsum{\overset{N}{\underset{i=1}{\sum}}}$
+$$\def\nsum{\overset{N}{\underset{i=1}{\sum}}}$$
 
-$\def\psum{\overset{p}{\underset{i=1}{\sum}}}$
+$$\def\psum{\overset{p}{\underset{i=1}{\sum}}}$$
 
-$ \def \norm#1{\parallel #1 \parallel}$
+$$ \def \norm#1{\parallel #1 \parallel}$$
 
 ### 1. Linear Regression model
 
-​										$Matrix\ form :  Y = X\beta + \epsilon		$	
+​										$$Matrix\ form :  Y = X\beta + \epsilon		$$	
 
-​                                        $Scalar\ form  \ \  :  y_i = f(\bold{x}_i)+ \epsilon_i = \beta_0 + \sum_{j=1}^px_{ij}\beta_j + \epsilon_i$
+​                                        $$Scalar\ form  \ \  :  y_i = f(\bold{x}_i)+ \epsilon_i = \beta_0 + \sum_{j=1}^px_{ij}\beta_j + \epsilon_i$$
 
-​                                                                                           $\epsilon_i \sim iid$  $ N(0,\sigma^2)$
+​                                                                                           $$\epsilon_i \sim iid$  $ N(0,\sigma^2)$$
 
 
 
--  $$ X = (X_1, \cdots , X_p)$$ : Input, Predictor variables
+-  $$X = (X_1, \cdots , X_p)$$ : Input, Predictor variables
 -  $$Y$$ : Output, Response variable
 -  $$\beta$$  : Unknown parameter
 -  $$\epsilon$$  : error term.  
@@ -36,15 +36,15 @@ $ \def \norm#1{\parallel #1 \parallel}$
 
 - Minimize the Residual sum of squares (RSS)
 
-​                                                $\underset{\beta}{argmin}\space RSS(\beta) = \overset{N}{\underset{i=1}{\sum}}(y_i - \beta_0 - \overset{p}{\underset{j=i}{\sum}}x_{ij}\beta_j)^2$
+​                                                $$\underset{\beta}{argmin}\space RSS(\beta) = \overset{N}{\underset{i=1}{\sum}}(y_i - \beta_0 - \overset{p}{\underset{j=i}{\sum}}x_{ij}\beta_j)^2$$
 
-​                                                                              $=(\bold{y} - \bold{X\beta})^T(\bold{y} - \bold{X\beta}) = \norm{\bold{y - X\beta}}^2$
+​                                                                              $$=(\textbf{y} - \textbf{X\beta})^T(\textbf{y} - \textbf{X\beta}) = \norm{\textbf{y - X\beta}}^2$$
 
 - estimation & prediction when $$X$$ is  non-singular
 
   > ​	$$\hat{\beta}^{LSE} = (X^TX)^{-1}X^T\bold{y}  \space\space \sim\space N(\beta,(X^TX)^{-1}\sigma^2)$$   -> 식으로 유도 
   >
-  > ​	$$\hat{y}= X\hat{\beta}^{LSE} =X(X^TX)^{-1}X^T\bold{y} = \bold{Hy}$$
+  > ​	$$\hat{y}= X\hat{\beta}^{LSE} =X(X^TX)^{-1}X^T\textbf{y} = \bold{Hy}$$
   >
   > ​	$$\bold{e} = \bold{y-\hat{y}} = \bold{(I-H)y}$$
   >
