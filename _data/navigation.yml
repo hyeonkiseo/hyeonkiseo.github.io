@@ -12,3 +12,9 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+foo:
+  - title: "Statistical Learning"
+    url: /categories/Statistical_Learning/
+    children:
+      - title: "Demension Reduction"
+        url: /statistical_learning/dimension-reduction/
