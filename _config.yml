@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hyeonki Seo"
+title                    : "Data Science Archive for my own"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Hyeonki Seo"
+description              : "Welcome to my blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -121,7 +121,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/hyeonkiseo"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -137,7 +137,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/hyeonkiseo"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -193,7 +193,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -273,17 +272,24 @@ compress_html:
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
-  # _posts
+
+#_posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
+      classes: wide
       read_time: true
-      comments: # true
+      author_profile: true
+      use_math: true
+      comments: true
       share: true
       related: true
+      sitemap :
+          changefreq : daily
+          priority : 1.0
+      header:
+          overlay_image: 
