@@ -18,3 +18,9 @@ foo:
     children:
       - title: "Demension Reduction"
         url: /statistical_learning/dimension-reduction/
+    
+    
+    
+ Bayesian:
+   - title: "Bayesian"
+     url: /categories/Bayesian
