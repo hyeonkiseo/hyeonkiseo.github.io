@@ -4,7 +4,7 @@ categories: [Statistical_Learning]
 tags: [차원 축소,Dimension reduction]
 excerpt: PCA,MCA,FA에 대한 대략적인 설명
 sidebar:
-  nav: "Bayesian"
+  nav: "Statistical_Learning"
 ---
 
 # 1. 차원 축소란?
