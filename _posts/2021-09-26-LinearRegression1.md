@@ -58,7 +58,7 @@ $ \def \norm#1{\parallel #1 \parallel}$
 
 ### 3. Further discussion about Linear regression
 
-![KakaoTalk_Image_2021-09-10-11-37-47](/Users/hyeonki/Downloads/KakaoTalk_Image_2021-09-10-11-37-47.jpeg)
+![figure1](/assets/img/posts/2021-09-26/figure1.jpeg)
 
 - Column space and Null space
 
@@ -66,7 +66,7 @@ $ \def \norm#1{\parallel #1 \parallel}$
   >
   > Null space of A is a space spanned by $\bold{x}$ which satisfies $$A\bold{x} = \bold{0}$$
   >
-  > _*C(A)*_ $$\perp$$ _*N(A)*_ 
+  > Null space and Row space are orthogonal to each other 
 
 - Hat matrix
 
