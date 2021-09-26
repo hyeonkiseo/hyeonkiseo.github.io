@@ -1,5 +1,5 @@
 ---
-title: "Data Science Archive"
+title: "Data Science Archive by H.K Seo"
 layout: splash
 permalink: /
 header:
