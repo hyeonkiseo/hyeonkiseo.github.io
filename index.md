@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/unsplash-image-1.jpg
   actions:
     - label: "Recent posts"
-      url: "/all/"
+      url: "/All/"
 excerpt: "My Studying archive. study with me!!"
 
 feature_row:
