@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Bayesian"
+    url: /categories/Bayesian/
+  - title: "Statistical_Learning"
+    url: /categories/Statistical_Learning/
+  - title: "Convex_Opt"
+    url: /categories/Convex_opt/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
