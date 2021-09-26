@@ -19,8 +19,15 @@ foo:
       - title: "Demension Reduction"
         url: /statistical_learning/dimension-reduction/
     
-    
+  
     
 Bayesian:
    - title: "Bayesian"
      url: /categories/Bayesian
+
+Statistical_Learning:
+   - title: "Statictical Learning"
+     url: /categories/Statistical_Learning
+     children:
+        - title: "Demension Reduction"
+          url: /statistical_learning/dimension-reduction/
