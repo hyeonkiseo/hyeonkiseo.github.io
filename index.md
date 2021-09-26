@@ -7,9 +7,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-1.jpg
   actions:
-    - label: "Learn More"
-      url: "/terms/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+    - label: "Recent posts"
+      url: "/All/"
 excerpt: "My Studying archive. study with me!!"
 
 feature_row:
