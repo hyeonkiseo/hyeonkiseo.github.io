@@ -1,8 +1,8 @@
 ---
-title: \[차원축소\]PCA,MCA,FA를 활용한 차원축소
+title: \[Linear Regression\]basic of Linear Regression
 categories: [Statistical_Learning]
-tags: [차원 축소,Dimension reduction]
-excerpt: PCA,MCA,FA에 대한 대략적인 설명
+tags: [linear regression, linear algebra, projection]
+excerpt: basic concept of linear regression
 sidebar:
   nav: "Statistical_Learning"
 ---
