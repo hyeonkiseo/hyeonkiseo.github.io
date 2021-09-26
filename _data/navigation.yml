@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "All"
-    url: /all/
+    url: /All/
   - title: "Bayesian"
     url: /categories/Bayesian/
   - title: "Statistical Learning"
