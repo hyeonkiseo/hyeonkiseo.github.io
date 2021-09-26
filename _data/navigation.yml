@@ -2,9 +2,9 @@
 main:
   - title: "Bayesian"
     url: /categories/Bayesian/
-  - title: "Statistical_Learning"
+  - title: "Statistical Learning"
     url: /categories/Statistical_Learning/
-  - title: "Convex_Opt"
+  - title: "Convex Opt"
     url: /categories/Convex_opt/
   # - title: "Sample Collections"
   #   url: /collection-archive/
