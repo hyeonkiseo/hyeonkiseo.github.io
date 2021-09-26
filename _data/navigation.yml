@@ -31,3 +31,5 @@ Statistical_Learning:
      children:
         - title: "Demension Reduction"
           url: /statistical_learning/dimension-reduction/
+        - title: "Basic of Linear Regression"
+          url: /statistical_learning/LinearRegression1/
