@@ -21,11 +21,11 @@ $ \def \norm#1{\parallel #1 \parallel}$
 
 ### 1. Linear Regression model
 
-$$ Matrix\ form :  Y = X\beta + \epsilon $$	
+$ Matrix\ form :  Y = X\beta + \epsilon $	
 
 $ Scalar\ form  \ \  :  y_i = f(\bold{x}_i)+ \epsilon_i = \beta_0 + \sum_{j=1}^px_{ij}\beta_j + \epsilon_i $
 
-$$\epsilon_i \sim iid$  $ N(0,\sigma^2)$$
+$\epsilon_i \sim iid$  $ N(0,\sigma^2)$
 
 
 
