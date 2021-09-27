@@ -23,7 +23,7 @@ $ \def \norm#1{\parallel #1 \parallel}$
 
 $ Matrix\ form :  Y = X\beta + \epsilon $	
 
-$ Scalar\ form :  y_i = f(\textbf{x}_i)+ \epsilon_i = \beta_0 + \sum_{j=1}^px_{ij}\beta_j + \epsilon_i $
+$ Scalar\ form : y_i = f(x_i) + \epsilon_i = \beta_0 + \sum_{j=1}^px_{ij}\beta_j + \epsilon_i $
 
 $\epsilon_i \sim iid$  $ N(0,\sigma^2)$
 
