@@ -52,7 +52,7 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row5:
-  - image_path: /assets/img/source/etc.jpg
+  - image_path: /assets/img/source/idea.png
     alt: ""
     title: "etc"
     excerpt: 'analytics, program languages and so on'
