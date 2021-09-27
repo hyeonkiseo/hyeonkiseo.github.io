@@ -44,15 +44,15 @@ feature_row3:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
-  - overlay_color: "#000"
-    overlay_filter: "0.5"
-    overlay_image: /assets/img/source/index.jpg
-    actions:
-      - label: "Read more"
-        url: "/categories/etc/"
+  - image_path: /assets/img/source/idea.png
+    title: "etc"
+    excerpt: 'analytics, program languages and so on'
+    url: "/categories/etc/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 
 feature_row5:
-  - image_path: /assets/img/source/idea.jpg
+  - image_path: /assets/img/source/etc.jpg
     title: "etc"
     excerpt: 'analytics, program languages and so on'
     url: "/categories/etc/"
@@ -62,7 +62,7 @@ feature_row5:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id = 'header' type="center"%}
+{% include feature_row id %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
