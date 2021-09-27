@@ -44,16 +44,15 @@ feature_row3:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  - overlay_color: "#000"
+    overlay_filter: "0.5"
+    overlay_image: /assets/img/source/index.jpg
+    actions:
+      - label: "Read more"
+        url: "/categories/etc/"
+
 feature_row5:
   - image_path: /assets/img/source/idea.png
-    alt: ""
     title: "etc"
     excerpt: 'analytics, program languages and so on'
     url: "/categories/etc/"
