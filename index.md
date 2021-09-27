@@ -52,7 +52,7 @@ feature_row4:
         url: "/categories/etc/"
 
 feature_row5:
-  - image_path: /assets/img/source/etc.jpg
+  - image_path: /assets/img/source/idea.jpg
     title: "etc"
     excerpt: 'analytics, program languages and so on'
     url: "/categories/etc/"
@@ -70,4 +70,4 @@ feature_row5:
 
 {% include feature_row id="feature_row4" type="left" %}
 
-{% include feature_row id="feature_row5" type="right" %}
+{% include feature_row id="feature_row5" type="left" %}
