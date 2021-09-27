@@ -48,9 +48,9 @@ $$\epsilon_i \sim iid$  $ N(0,\sigma^2)$$
   >
   > $\hat{y}= X\hat{\beta}^{LSE} =X(X^TX)^{-1}X^T\bold{y} = \bold{Hy}$
   >
-  > $\bold{e} = \bold{y-\hat{y}} = \bold{(I-H)y}$
+  > $\textbf{e} = \textbf{y-\hat{y}} = \textbf{(I-H)y}$
   >
-  > $\frac{(N-p-1)\hat{\sigma^2}}{\sigma^2}\space\sim\chi^2_{N-p-1}$$  $$, where\space \space\space\hat{\sigma^2} = \overset{N}{\underset{i=1}{\sum}}\frac{(y_i - \hat{y}_i)^2}{(N-p-1)}  (=s^2)$
+  > $\frac{(N-p-1)\hat{\sigma^2}}{\sigma^2}\space\sim\chi^2_{N-p-1}$, $ where\space \space\space\hat{\sigma^2} = \overset{N}{\underset{i=1}{\sum}}\frac{(y_i - \hat{y}_i)^2}{(N-p-1)}  (=s^2)$
   >
   > $\hat{\beta}, \sigma^2$ are independent to each other
   
