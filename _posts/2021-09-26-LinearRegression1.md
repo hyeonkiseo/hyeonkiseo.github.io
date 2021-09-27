@@ -102,7 +102,7 @@ $=(y - X\beta)^T(y - X\beta) = \norm{y - X\beta}^2$
 
   > $H_0: \beta_j = 0 $  vs $H_1:\beta_j \neq 0$
   >
-  > $T = \frac{\hat{\beta}_j^{LSE} - \beta_j}{\sqrt{\sigma^2 C_{jj}}} \space \sim t(n-p-1)$$ where $$C_{jj}$ is $j$th diagonal element of $(X^TX)^{-1}$
+  > $T = \frac{\hat{\beta}j_j^{LSE} - \beta_j}{\sqrt{\sigma^2 C_{jj}}} \space \sim t(n-p-1)$ where $C_{jj}$ is $j$th diagonal element of $(X^TX)^{-1}$
   >
   > reject $H_0$ if $T > t_{0.975, n-p-1} $ or  $T < t_{0.025, n-p-1} $
 
@@ -148,7 +148,7 @@ $=(y - X\beta)^T(y - X\beta) = \norm{y - X\beta}^2$
 
 - these can be expressed as matrix form , which is called QR decomposition
 
-  > $\left[x_0 \space x_1 \space \cdots x_p\right] = \left[z_0 \space z_1 \space \cdots z_p \right] \left[\begin{array}{ccccc} 1 & \gamma_{01}&\gamma_{02}& \cdots &\gamma_{0p} \\ 0&1&\gamma_{12}&\cdots&\gamma_{1p} \\ 0&0&1&\cdots&\gamma_{2p} \\ \vdots & \vdots & \vdots &\ddots&\vdots  \\ 0&0&0&\cdots&1 \end{array}\right]$
+  > $\left[x_0 \space x_1 \space \cdots x_p\right] = \left[z_0 \space z_1 \space \cdots z_p \right]$ $\begin{array}{ccccc} 1 & \gamma_{01}&\gamma_{02}& \cdots &\gamma_{0p} \\ 0&1&\gamma_{12}&\cdots&\gamma_{1p} \\ 0&0&1&\cdots&\gamma_{2p} \\ \vdots & \vdots & \vdots &\ddots&\vdots  \\ 0&0&0&\cdots&1 \end{array}$
   >
   > ​                    $X= Z\Gamma$
   >
@@ -157,7 +157,3 @@ $=(y - X\beta)^T(y - X\beta) = \norm{y - X\beta}^2$
   > ​                         $=QR$
 
 -  Backward fitting by QR decomposition needs lower computing power
-
-
-
-$\begin{bmatrix} 1 & \gamma_{01}&\gamma_{02}& \cdots &\gamma_{0p} \\ 0&1&\gamma_{12}&\cdots&\gamma_{1p} \\ 0&0&1&\cdots&\gamma_{2p} \\ \vdots & \vdots & \vdots &\ddots&\vdots  \\ 0&0&0&\cdots&1 \end{bmatrix}$
