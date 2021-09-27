@@ -292,4 +292,4 @@ defaults:
           changefreq : daily
           priority : 1.0
       header:
-          overlay_image: /assets/img/source/bio.jpeg
+          overlay_image: 
