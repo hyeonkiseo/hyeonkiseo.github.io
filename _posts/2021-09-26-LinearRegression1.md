@@ -100,7 +100,7 @@ $=(y - X\beta)^T(y - X\beta) = \norm{y - X\beta}^2$
 
 - $T$ statistic -> 유도
 
-  > $H_0: \beta_j = 0 $$  vs $$H_1:\beta_j \neq 0$
+  > $H_0: \beta_j = 0 $  vs $H_1:\beta_j \neq 0$
   >
   > $T = \frac{\hat{\beta}_j^{LSE} - \beta_j}{\sqrt{\sigma^2 C_{jj}}} \space \sim t(n-p-1)$$ where $$C_{jj}$ is $j$th diagonal element of $(X^TX)^{-1}$
   >
@@ -152,7 +152,7 @@ $=(y - X\beta)^T(y - X\beta) = \norm{y - X\beta}^2$
   >
   > ​                    $X= Z\Gamma$
   >
-  > ​                         $= ZD^{-1}D\Gamma$$       where $$ D = diag(\norm{z_0},\cdots,\norm{z_p}) $
+  > ​                         $= ZD^{-1}D\Gamma$       where $ D = diag(\norm{z_0},\cdots,\norm{z_p}) $
   >
   > ​                         $=QR$
 
