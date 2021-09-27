@@ -21,9 +21,9 @@ $ \def \norm#1{\parallel #1 \parallel}$
 
 ### 1. Linear Regression model
 
-$$Matrix\ form :  Y = X\beta + \epsilon $$	
+$$ Matrix\ form :  Y = X\beta + \epsilon $$	
 
-$Scalar\ form  \ \  :  y_i = f(\bold{x}_i)+ \epsilon_i = \beta_0 + \sum_{j=1}^px_{ij}\beta_j + \epsilon_i$
+$ Scalar\ form  \ \  :  y_i = f(\bold{x}_i)+ \epsilon_i = \beta_0 + \sum_{j=1}^px_{ij}\beta_j + \epsilon_i $
 
 $$\epsilon_i \sim iid$  $ N(0,\sigma^2)$$
 
@@ -34,13 +34,13 @@ $$\epsilon_i \sim iid$  $ N(0,\sigma^2)$$
 -  $\beta$  : Unknown parameter
 -  $\epsilon$  : error term.  
 
-### 2. Least Square estimate of $$\bold{\beta}$$ 
+### 2. Least Square estimate of $\textbf{\beta}$ 
 
 - Minimize the Residual sum of squares (RSS)
 
-​                                                $$\underset{\beta}{argmin}\space RSS(\beta) = \overset{N}{\underset{i=1}{\sum}}(y_i - \beta_0 - \overset{p}{\underset{j=i}{\sum}}x_{ij}\beta_j)^2$$
+$\underset{\beta}{argmin}\space RSS(\beta) = \overset{N}{\underset{i=1}{\sum}}(y_i - \beta_0 - \overset{p}{\underset{j=i}{\sum}}x_{ij}\beta_j)^2$
 
-​                                                                              $$=(y - X\beta)^T(y - X\beta) = \norm{y - X\beta}^2$$
+$=(y - X\beta)^T(y - X\beta) = \norm{y - X\beta}^2$
 
 - estimation & prediction when $X$ is  non-singular
 
