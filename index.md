@@ -28,11 +28,11 @@ feature_row:
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
+  - image_path: /assets/img/source/statisticallearning.png
+    alt: ""
+    title: "Statistical Learning"
+    excerpt: 'Machine learning and deep learning algorithms'
+    url: "/categories/Statistical_Learning/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
