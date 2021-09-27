@@ -157,5 +157,7 @@ $=(y - X\beta)^T(y - X\beta) = \norm{y - X\beta}^2$
   > ​                         $=QR$
 
 -  Backward fitting by QR decomposition needs lower computing power
-$\left[\begin{array}{ccccc} 1 & \gamma_{01}&\gamma_{02}& \cdots &\gamma_{0p} \\ 0&1&\gamma_{12}&\cdots&\gamma_{1p} \\ 0&0&1&\cdots&\gamma_{2p} \\ \vdots & \vdots & \vdots &\ddots&\vdots  \\ 0&0&0&\cdots&1 \end{array}\right]$
 
+$$\left[\begin{array}{ccccc} 1 & \gamma_{01}&\gamma_{02}& \cdots &\gamma_{0p} \\ 0&1&\gamma_{12}&\cdots&\gamma_{1p} \\ 0&0&1&\cdots&\gamma_{2p} \\ \vdots & \vdots & \vdots &\ddots&\vdots  \\ 0&0&0&\cdots&1 \end{array}\right]$$
+
+$\left[\begin{array}{ccccc} 1 & \gamma_{01}&\gamma_{02}& \cdots &\gamma_{0p} \\ 0&1&\gamma_{12}&\cdots&\gamma_{1p} \\ 0&0&1&\cdots&\gamma_{2p} \\ \vdots & \vdots & \vdots &\ddots&\vdots  \\ 0&0&0&\cdots&1 \end{array}\right]$
