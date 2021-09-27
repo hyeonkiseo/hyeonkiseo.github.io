@@ -108,9 +108,9 @@ $=(y - X\beta)^T(y - X\beta) = \norm{y - X\beta}^2$
 
 - F statistic -> 유도
 
-  > $H_0: \beta_1 =\beta_2 =\cdots=\beta_p = 0 $$  vs $$H_1:not H_0 $
+  > $H_0: \beta_1 =\beta_2 =\cdots=\beta_p = 0 $  vs $H_1:not H_0 $
   >
-  > $F = \frac{V_1 / k1}{V_2 / k_2}\sim F(k1,k2) $$, where $$V_1 = SSE_{reduced} - SSE_{full}, \space\space\space V_2 = SSE_{full}$, $k_1 and\space k_2$ are corresponding  $df$
+  > $F = \frac{V_1 / k1}{V_2 / k_2}\sim F(k1,k2) $, where $V_1 = SSE_{reduced} - SSE_{full}, \space\space\space V_2 = SSE_{full}$, $k_1 and\space k_2$ are corresponding  $df$
   >
   > reject $H_0$ if $F > F_{0.05}$
 
@@ -132,7 +132,7 @@ $=(y - X\beta)^T(y - X\beta) = \norm{y - X\beta}^2$
   >
   > ​      $\vdots$
   >
-  > $ z_p = \bold{x_p} - (\overset{p}{\underset{i=0}{\sum}}z_{i}\gamma_{ip} )$ ,  where $\gamma_{ij} = (z_i^Tz_i)^{-1}z_i^T\bold{x_j}$ , single univariate regression coef on $x_j$ by $z_i$
+  > $ z_p = x_p - (\overset{p}{\underset{i=0}{\sum}}z_{i}\gamma_{ip} )$ ,  where $\gamma_{ij} = (z_i^Tz_i)^{-1}z_i^Tx_j$ , single univariate regression coef on $x_j$ by $z_i$
   >
   > because all $z_i$  are orthogonal to each other, all $\hat{\beta}$ coef is fitted by univariate regression
 
@@ -140,19 +140,19 @@ $=(y - X\beta)^T(y - X\beta) = \norm{y - X\beta}^2$
 
   > $x_0 = z_0$
   >
-  > $\bold{x_1} = \gamma_{01}z_0 + z_1$
+  > $x_1 = \gamma_{01}z_0 + z_1$
   >
   > ​      $\vdots$
   >
-  > $\bold{x_p} = \gamma_{0p}z_0 +\gamma_{1p}z_1 +\cdots +\gamma_{p-1\space p}z_{p-1} +  z_p$
+  > $x_p = \gamma_{0p}z_0 +\gamma_{1p}z_1 +\cdots +\gamma_{p-1\space p}z_{p-1} +  z_p$
 
 - these can be expressed as matrix form , which is called QR decomposition
 
-  > $[x_0 \space x_1 \space \cdots x_p] = [\bold{z_0 \space z_1 \space \cdots z_p}] \begin{bmatrix} 1 & \gamma_{01}&\gamma_{02}& \cdots &\gamma_{0p} \\ 0&1&\gamma_{12}&\cdots&\gamma_{1p}\\0&0&1&\cdots&\gamma_{2p}\\ \vdots & \vdots & \vdots &\ddots&\vdots \\ 0&0&0&\cdots&1 \end{bmatrix}$
+  > $[x_0 \space x_1 \space \cdots x_p] = [z_0 \space z_1 \space \cdots z_p] \begin{bmatrix} 1 & \gamma_{01}&\gamma_{02}& \cdots &\gamma_{0p} # 0&1&\gamma_{12}&\cdots&\gamma_{1p}#0&0&1&\cdots&\gamma_{2p}# \vdots & \vdots & \vdots &\ddots&\vdots # 0&0&0&\cdots&1 \end{bmatrix}$
   >
   > ​                    $X= Z\Gamma$
   >
-  > ​                         $= ZD^{-1}D\Gamma$$       where $$ D = diag(\norm{\bold{z_0}},\cdots,\norm{\bold{z_p}}) $
+  > ​                         $= ZD^{-1}D\Gamma$$       where $$ D = diag(\norm{z_0},\cdots,\norm{z_p}) $
   >
   > ​                         $=QR$
 
