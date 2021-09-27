@@ -52,7 +52,7 @@ feature_row4:
         url: "/categories/etc/"
 
 feature_row5:
-  - image_path: /assets/img/source/idea.png
+  - image_path: /assets/img/source/etc.jpg
     title: "etc"
     excerpt: 'analytics, program languages and so on'
     url: "/categories/etc/"
