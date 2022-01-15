@@ -1,9 +1,9 @@
 ---
-title: "Convex Optimization"
+title: "Mathematics"
 author_profile: true
 layout: category
-permalink: /categories/Convex_Opt/
-taxonomy: Convex_Opt
+permalink: /categories/Math/
+taxonomy: Math
 sidebar:
   nav: "foo"
 ---
