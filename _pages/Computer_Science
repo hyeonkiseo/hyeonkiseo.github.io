@@ -1,0 +1,9 @@
+---
+title: "Computer Science"
+author_profile: true
+layout: category
+permalink: /categories/Computer_Science/
+taxonomy: Computer_Science
+sidebar:
+  nav: "foo"
+---
